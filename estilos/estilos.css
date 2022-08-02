@@ -51,7 +51,7 @@ nav a{
 }
 
 .indexi{
-    width: 82rem;
+    width: 118.9rem;
 }
 
 /*ESTILOS BODY*/
@@ -63,9 +63,10 @@ nav a{
 
 .contetexto{
     position: absolute;
-    top: 27rem;
+    top: 41rem;
     left: 4rem;
     color: var(--blanco);
+    background-color: rgba(0, 0, 0, 0.26);
 }
 
 .imgdesc{
