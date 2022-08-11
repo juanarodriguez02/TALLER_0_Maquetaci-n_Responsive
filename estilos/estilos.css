@@ -28,26 +28,350 @@ h1,h2,h3,h4,h5{
     font-family: 'Marcellus', serif;
 }
 
-/*ESTILOS MENU*/
-
 /*Resolución mobile*/
 @media screen and (min-width: 320px){
     
-/*nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: var(--negro);
-    font-family: 'Marcellus', serif;
-    font-size: 1.3em;
-    padding: 1rem;
-}*/
+    .logo img{
+        width: 40%;
+        max-width: 200px;
+    }
 
-/*nav a{
-    text-decoration: none;
-    color: var(--blanco);
-    padding: 1rem;
-}*/
+    .logo i{
+        color: var(--blanco);
+        font-size: 2rem;
+    }
+
+    .logo{
+        background-color: var(--negro2);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+    .menu{
+        background-color: rgba(1, 10, 52, 0.838);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .menu-hr{
+        width: 90%;
+        background-color: var(--blanco);
+    }
+    .item{
+        padding: 1rem;
+    }
+
+    nav a{
+        color: var(--blanco);
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    nav a:hover{
+        background-color: #0B3860;
+        width: 100%;
+    }
+
+    .navbar-button{
+        background-color:transparent;
+        border: none;
+        border-radius: 3px;
+        font-size: 1em;
+        padding: 0.5rem;
+        font-family: "Marcellus", serif;
+        color: var(--blanco);
+    }
+
+    .indexi{
+        width: 100%;
+    }
+
+    .conteimg{
+        position: relative;
+        display: inline-block;
+    }
+
+    .contetexto{
+        font-size: 5px;
+        position: absolute;
+        left: 10px;
+        bottom: 10px;
+        color: var(--blanco);
+        background-color: rgba(0, 0, 0, 0.445);
+    }
+
+    .contedesc{
+        width: 280px;
+        margin: 30px auto;
+        padding: 20px 20px;
+    }
+  
+    .contedesc img{
+        width: 8rem;
+        border-radius: 10px;
+        margin-left: 5rem;
+    }
+
+    .features{
+        background: url(../imagenes/index/bg-features.png);
+        color: #fff;
+        width: 100%;
+        padding-top: 1rem;
+    }
+
+    .featurestitulo{
+        background-color: rgba(0,0,0,0.35);
+        text-align: center;
+        padding: 0.5rem;
+        font-size: 1.5em;
+    }
+
+    .featuresdesc{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .feature{
+        width: 100px;
+        height: 90px;
+        margin: 0.8rem;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+    }
+
+    .featurearriba{
+        flex-direction: row;
+    }
+
+    .featureabajo{
+        flex-direction: row;
+    }
+
+    .feature i{
+        font-size: 2.2em;
+        margin-bottom: 1.5rem;
+    }
+
+    .featureazul{
+        background-color: #00325eae;
+    }
+
+    .featurenegro{
+        background-color: rgba(0,0,0,0.59);
+    }
+
+    .titulomapa{
+        text-align: center;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+    }
+
+    .mapa{
+        justify-content: center;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .direccion{
+        text-align: center;
+        padding-top: 2rem;
+        margin: 5px;
+    }
+
+    .hr{
+        background-color: var(--azuloscuro);
+        width: 300px;
+        margin: 5px;
+    }
+
+    .conteusuarios{
+        background-color: var(--negro);
+        height: 200px;
+        margin-top: 50px;
+    }
+
+    .titulousu{
+        padding-top: 3rem;
+        text-align: center;
+        color: #fff;
+    }
+
+    .contecomen{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-top: 20px;
+    }
+
+    .cajascomen{
+        width: 300px;
+        height: 180px;
+        margin: 0.8rem;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #0B3860;
+        color: #fff;
+        /*background-color: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%); */
+    }
+
+    .cajascomen h5{
+        text-align: center;
+    }
+
+    .cajascomen img{
+        width: 50px;
+        border-radius: 100px;
+        float: left;
+    }
+
+    footer{
+        height: 400px;
+        background-color: var(--negro);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top:50rem;
+    }
+
+    .cajasfooter1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: var(--blanco);
+        padding-top: 50px;
+        height: 30px;
+    }
+
+    .cajasfooter2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        padding-top: 20px;
+        margin-left: 5px;
+    }
+
+    footer i{
+        padding: 8px;
+    }
+
+    .cajasfooter3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        width: 350px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+
+    .hrfooter{
+        margin-right: 5px;
+    }
+
+    .iconosfooter{
+        color: var(--blanco);
+        margin-right: 70px;
+    }
+
+    /*ESTILOS LOGIN */
+
+    .login{
+        background-image: url(../imagenes/login/fondo.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    
+    .conteform img{
+        width: 130px;
+        float: left;
+        padding: 1rem;
+    }
+    
+    .conteicono i{
+        color: #9C2759;
+        background-color: #fff;
+        border-radius: 60px;
+        font-size: 50px;
+        margin-top: 80px;
+        margin-left: -20px;
+    }
+
+    .conteform{
+        justify-content: space-between;
+        margin-top: 150px;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 400px;
+        width: 315px;
+        background-color: #3379b7a9;
+    }
+    
+    .contecampos{
+        margin-left: 25px;
+    }
+    
+    .contecampos label{
+        color: var(--blanco);
+        display: inline-block;
+        padding: 5px;
+    }
+    
+    .input1{
+        margin-bottom: 20px;
+    }
+    
+    .contecampos input{
+        padding: 4px;
+        outline: none;
+        width: 270px;
+        border-radius: 3px;
+        border: none;
+    }
+    
+    .botonlogin{
+        color: var(--blanco);
+        margin-top: 50px;
+        outline: none;
+        background-color: var(--negro2);
+        width: 280px;
+        height: 30px;
+        font-size: 1rem;
+        border-radius: 3px;
+        border: none;
+    }
+
+    .botonlogin a{
+        color: var(--blanco);
+        text-decoration: none;
+    }
+    
+    .conteform h5{
+        padding: 10px;
+        color: #fff;
+        margin-left: 20px;
+    }
+
+    .botona{
+        text-decoration: none;
+        color: #000;
+    }
+}
+
+/*Resolución tablet*/
+@media screen and (min-width: 768px){
 
     .logo img{
         width: 40%;
@@ -114,24 +438,26 @@ h1,h2,h3,h4,h5{
     }
 
     .contetexto{
-        font-size: 4px;
+        font-size: 10px;
         position: absolute;
         left: 10px;
-        bottom: 10px;
+        bottom: 15px;
         color: var(--blanco);
         background-color: rgba(0, 0, 0, 0.445);
     }
 
     .contedesc{
-        width: 280px;
+        width: 700px;
         margin: 30px auto;
         padding: 20px 20px;
+        text-align: left;
     }
-  
+      
     .contedesc img{
         width: 8rem;
         border-radius: 10px;
-        margin-left: 5rem;
+        float: right;
+        margin-left: 8rem;
     }
 
     .features{
@@ -152,18 +478,27 @@ h1,h2,h3,h4,h5{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        text-align: center;
     }
 
     .feature{
-        width: 200px;
-        height: 100px;
+        width: 180px;
+        height: 90px;
         margin: 0.8rem;
         padding: 1rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        border-radius: 5px;
+        border-radius: 3px;
+    }
+
+    .featurearriba{
+        flex-direction: row;
+    }
+
+    .featureabajo{
+        flex-direction: row;
     }
 
     .feature i{
@@ -197,10 +532,16 @@ h1,h2,h3,h4,h5{
         margin: 5px;
     }
 
+    .hr{
+        background-color: var(--azuloscuro);
+        width: 747px;
+        margin: 5px;
+    }
+
     .conteusuarios{
         background-color: var(--negro);
         height: 200px;
-        margin-top: 100px;
+        margin-top: 50px;
     }
 
     .titulousu{
@@ -240,7 +581,7 @@ h1,h2,h3,h4,h5{
     }
 
     footer{
-        height: 400px;
+        height: 250px;
         background-color: var(--negro);
         display: flex;
         flex-wrap: wrap;
@@ -253,7 +594,6 @@ h1,h2,h3,h4,h5{
         flex-direction: column;
         justify-content: center;
         color: var(--blanco);
-        padding-top: 50px;
         height: 30px;
     }
 
@@ -263,6 +603,7 @@ h1,h2,h3,h4,h5{
         justify-content: center;
         color: #fff;
         padding-top: 20px;
+        margin-left: 5px;
     }
 
     footer i{
@@ -274,14 +615,101 @@ h1,h2,h3,h4,h5{
         flex-direction: column;
         justify-content: center;
         color: #fff;
-        padding-top: 20px;
-        padding-left: 50px;
+        width: 350px;
+        margin-left: 20px;
         padding-bottom: 10px;
+    }
+
+    .hrfooter{
+        display: none;
     }
 
     .iconosfooter{
         color: var(--blanco);
-        margin-right: 70px;
+        margin-right: 240px;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    /*ESTILOS LOGIN */
+
+    .login{
+        background-image: url(../imagenes/login/fondo.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    
+    .conteform img{
+        width: 130px;
+        float: left;
+        padding: 1rem;
+    }
+    
+    .conteicono i{
+        color: #9C2759;
+        background-color: #fff;
+        border-radius: 60px;
+        font-size: 50px;
+        margin-top: 80px;
+        margin-left: -20px;
+    }
+
+    .conteform{
+        margin-top: 150px;
+        margin-left: 230px;
+        height: 400px;
+        width: 320px;
+        background-color: #3379b7a9;
+    }
+    
+    .contecampos{
+        margin-left: 25px;
+    }
+    
+    .contecampos label{
+        color: var(--blanco);
+        display: inline-block;
+        padding: 5px;
+    }
+    
+    .input1{
+        margin-bottom: 20px;
+    }
+    
+    .contecampos input{
+        padding: 4px;
+        outline: none;
+        width: 270px;
+        border-radius: 3px;
+        border: none;
+    }
+    
+    .botonlogin{
+        color: var(--blanco);
+        margin-top: 50px;
+        outline: none;
+        background-color: var(--negro2);
+        width: 280px;
+        height: 30px;
+        font-size: 1rem;
+        border-radius: 3px;
+        border: none;
+    }
+
+    .botonlogin a{
+        color: var(--blanco);
+        text-decoration: none;
+    }
+    
+    .conteform h5{
+        padding: 10px;
+        color: #fff;
+        margin-left: 20px;
+    }
+
+    .botona{
+        text-decoration: none;
+        color: #000;
     }
 }
 
@@ -337,7 +765,7 @@ h1,h2,h3,h4,h5{
         font-size: 1rem;
         position: absolute;
         height: 80px;
-        top: 28rem;
+        top: 27rem;
         left: 4rem;
         color: var(--blanco);
         background-color: rgba(0, 0, 0, 0.26);
@@ -358,7 +786,7 @@ h1,h2,h3,h4,h5{
         width: 10rem;
         border-radius: 10px;
         float: right;
-        margin-left: 3rem;
+        margin-left: 8rem;
     }
     
     .features{
@@ -377,22 +805,31 @@ h1,h2,h3,h4,h5{
     
     .featuresdesc{
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
     }
     
     .feature{
         width: 200px;
         height: 100px;
-        margin: 0.8rem;
         padding: 1rem;
+        margin: 30px 50px;
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
-        border-radius: 5px;
+        border-radius: 3px;
     }
-    
+
+    .featurearriba{
+        display: flex;
+        text-align: center;
+        flex-direction: row;
+    }
+
+    .featureabajo{
+        display: flex;
+        text-align: center;
+        flex-direction: row;
+    }
+
     .feature i{
         font-size: 2.2em;
         margin-bottom: 1.5rem;
@@ -420,6 +857,11 @@ h1,h2,h3,h4,h5{
     .direccion{
         text-align: center;
         padding-top: 2rem;
+    }
+
+    .hr{
+        width: 650px;
+        margin-left: 39rem;
     }
     
     .conteusuarios{
@@ -455,8 +897,328 @@ h1,h2,h3,h4,h5{
         /*background-color: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%); */
     }
     
- /*   .cajascomen h5{
-    }*/
+    .cajascomen img{
+        width: 50px;
+        border-radius: 100px;
+        float: left;
+        margin-bottom: 2rem;
+    }
+    
+    footer{
+        height: 180px;
+        background-color: var(--negro);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 18rem;
+    }
+    
+    .cajasfooter1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        padding-top: 40px;
+        height: 100px;
+        margin-left: 30px;
+    }
+    
+    .cajasfooter2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        height: 100px;
+        padding-top: 30px;
+        margin-left: 50px;
+    }
+    
+    footer i{
+        padding: 8px;
+    }
+    
+    .cajasfooter3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        padding-top: 25px;
+        height: 100px;
+        width: 200px;
+        margin-left: 50px;
+    }
+
+    .iconosfooter{
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+    }
+
+    /*ESTILOS LOGIN */
+
+    .login{
+        background-image: url(../imagenes/login/fondo.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    
+    .conteform img{
+        width: 130px;
+        float: left;
+        padding: 1rem;
+    }
+    
+    .conteicono i{
+        color: #9C2759;
+        background-color: #fff;
+        border-radius: 60px;
+        font-size: 50px;
+        margin-top: 80px;
+        margin-left: -20px;
+    }
+
+    .conteform{
+        margin-top: 150px;
+        margin-left: 500px;
+        height: 400px;
+        width: 320px;
+        background-color: #3379b7a9;
+    }
+    
+    .contecampos{
+        margin-left: 25px;
+    }
+    
+    .contecampos label{
+        color: var(--blanco);
+        display: inline-block;
+        padding: 5px;
+    }
+    
+    .input1{
+        margin-bottom: 20px;
+    }
+    
+    .contecampos input{
+        padding: 4px;
+        outline: none;
+        width: 270px;
+        border-radius: 3px;
+        border: none;
+    }
+    
+    .botonlogin{
+        color: var(--blanco);
+        margin-top: 50px;
+        outline: none;
+        background-color: var(--negro2);
+        width: 280px;
+        height: 30px;
+        font-size: 1rem;
+        border-radius: 3px;
+        border: none;
+    }
+
+    .botonlogin a{
+        color: var(--blanco);
+        text-decoration: none;
+    }
+    
+    .conteform h5{
+        padding: 10px;
+        color: #fff;
+        margin-left: 20px;
+    }
+
+    .botona{
+        text-decoration: none;
+        color: #000;
+    }
+}
+
+/*Resolución Desktop*/
+@media screen and (min-width: 1328px){
+
+    nav{
+        display: flex;
+        flex-direction: row; /*se cambia la posición de los elementos*/
+        width: 100%;
+        justify-content: space-between;
+        background-color: var(--negro2);
+    }
+
+    .logo{
+        padding: 1rem;
+    }
+
+    .logo img{
+        width: 100%;
+        max-width: 180px;
+    }
+
+    .logo i{ /*se oculta el ícono bars del menú hamburguesa*/
+        display: none;
+    }
+ 
+    .menu{
+        background-color: var(--negro2);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .menu-hr{ /*se oculta la barra de división*/
+        display: none;
+    }
+
+    .navbar-button{
+        background-color:var(--azuloscuro);
+    }    
+
+    .indexi{
+        width: 100%;
+    }
+    
+    .conteimg{
+        position: relative;
+        display: inline-block;
+    }
+    
+    .contetexto{
+        font-size: 1rem;
+        position: absolute;
+        height: 80px;
+        top: 27rem;
+        left: 4rem;
+        color: var(--blanco);
+        background-color: rgba(0, 0, 0, 0.26);
+    }
+    
+    .imgdesc{
+        float: right;
+    }
+    
+    .contedesc{
+        width: 850px;
+        margin: 30px auto;
+        padding: 20px 20px;
+        text-align: left;
+    }
+      
+    .contedesc img{
+        width: 10rem;
+        border-radius: 10px;
+        float: right;
+        margin-left: 8rem;
+    }
+    
+    .features{
+        background: url(../imagenes/index/bg-features.png);
+        color: #fff;
+        padding-top: 1rem;
+        height: 15rem;
+    }
+    
+    .featurestitulo{
+        background-color: rgba(0,0,0,0.35);
+        text-align: center;
+        padding: 0.5rem;
+        font-size: 1.5em;
+    }
+    
+    .featuresdesc{
+        display: flex;
+    }
+    
+    .feature{
+        width: 200px;
+        height: 100px;
+        padding: 1rem;
+        margin: 30px 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+    }
+
+    .featurearriba{
+        display: flex;
+        text-align: center;
+        flex-direction: row;
+    }
+
+    .featureabajo{
+        display: flex;
+        text-align: center;
+        flex-direction: row;
+    }
+
+    .feature i{
+        font-size: 2.2em;
+        margin-bottom: 1.5rem;
+    }
+    
+    .featureazul{
+        background-color: #00325eae;
+    }
+    
+    .featurenegro{
+        background-color: rgba(0,0,0,0.59);
+    }
+    
+    .titulomapa{
+        text-align: center;
+        padding-top: 4rem;
+        padding-bottom: 1rem;
+    }
+    
+    .mapa{
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .direccion{
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .hr{
+        width: 650px;
+        margin-left: 39rem;
+    }
+    
+    .conteusuarios{
+        background-color: var(--negro);
+        height: 200px;
+        margin-top: 100px;
+        
+    }
+    
+    .titulousu{
+        padding-top: 3rem;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .contecomen{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-top: 20px;
+    }
+    
+    .cajascomen{
+        width: 300px;
+        height: 180px;
+        margin: 0.8rem;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #0B3860;
+        color: #fff;
+        /*background-color: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%); */
+    }
     
     .cajascomen img{
         width: 50px;
@@ -481,6 +1243,7 @@ h1,h2,h3,h4,h5{
         color: #fff;
         padding-top: 40px;
         height: 100px;
+        margin-left: 30px;
     }
     
     .cajasfooter2{
@@ -490,6 +1253,7 @@ h1,h2,h3,h4,h5{
         color: #fff;
         height: 100px;
         padding-top: 30px;
+        margin-left: 50px;
     }
     
     footer i{
@@ -503,11 +1267,94 @@ h1,h2,h3,h4,h5{
         color: #fff;
         padding-top: 25px;
         height: 100px;
+        width: 200px;
+        margin-left: 50px;
     }
 
     .iconosfooter{
         display: flex;
         flex-direction: row;
         margin-top: 50px;
+    }
+
+    /*ESTILOS LOGIN */
+
+    .login{
+        background-image: url(../imagenes/login/fondo.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    
+    .conteform img{
+        width: 130px;
+        float: left;
+        padding: 1rem;
+    }
+    
+    .conteicono i{
+        color: #9C2759;
+        background-color: #fff;
+        border-radius: 60px;
+        font-size: 50px;
+        margin-top: 80px;
+        margin-left: -20px;
+    }
+
+    .conteform{
+        margin-top: 150px;
+        margin-left: 500px;
+        height: 400px;
+        width: 320px;
+        background-color: #3379b7a9;
+    }
+    
+    .contecampos{
+        margin-left: 25px;
+    }
+    
+    .contecampos label{
+        color: var(--blanco);
+        display: inline-block;
+        padding: 5px;
+    }
+    
+    .input1{
+        margin-bottom: 20px;
+    }
+    
+    .contecampos input{
+        padding: 4px;
+        outline: none;
+        width: 270px;
+        border-radius: 3px;
+        border: none;
+    }
+    
+    .botonlogin{
+        color: var(--blanco);
+        margin-top: 50px;
+        outline: none;
+        background-color: var(--negro2);
+        width: 280px;
+        height: 30px;
+        font-size: 1rem;
+        border-radius: 3px;
+        border: none;
+    }
+
+    .botonlogin a{
+        color: var(--blanco);
+        text-decoration: none;
+    }
+    
+    .conteform h5{
+        padding: 10px;
+        color: #fff;
+        margin-left: 20px;
+    }
+
+    .botona{
+        text-decoration: none;
+        color: #000;
     }
 }
