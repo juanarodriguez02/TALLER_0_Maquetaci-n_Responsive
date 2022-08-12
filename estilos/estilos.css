@@ -368,6 +368,115 @@ h1,h2,h3,h4,h5{
         text-decoration: none;
         color: #000;
     }
+
+    /*ESTILOS FORMULARIO REGISTRO USUARIOS*/
+
+    .bodyformreu{
+        background-image: url(../imagenes/formregusu/fondo.jpg);
+        /*background-repeat: no-repeat;*/
+        width: 100%;
+    }
+
+    .contepadre{ 
+        margin: auto;
+        display: flex;
+    }
+
+    .conte1{
+        margin-top: 20px;
+        height: 100px;
+        width: 620px;
+        background-color: #00325eae;
+        justify-content: center;
+        text-align: center;
+        color: var(--blanco);
+    }
+
+    .conte1 img{
+        justify-content: center;
+        width: 150px;
+        margin-top: 8px;
+    }
+
+    .conte1 h3{
+        font-size: 30px;
+    }
+    
+    .conte1 h2{
+        /*justify-content: center;
+        text-align: center;
+        font-size: 20px;*/
+        display: none;
+    }
+
+    .conte2{
+        justify-content: center;
+        margin: 20px 150px;
+        border-radius: 4px;
+        padding: 10px;
+        height: 1000px;
+        width: 300px;
+        background-color: rgba(231, 229, 229, 0.877);
+    }
+
+    .conte2 h1{
+        text-align: center;
+    }
+
+    .conte3{
+        margin: auto;
+        width: 300px;
+    }
+
+    .conte3 input {
+        font-size: 15px;
+        width: 280px;
+        outline: none;
+        border:none;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .conte3 select{
+        width: 290px;
+        outline: none;
+        border:none;
+        padding: 4px;
+        border-radius: 5px;
+    }
+
+    .camposform{
+        padding: 10px;
+    }
+
+    .camposformg{
+        display: flex;
+        justify-content: flex-start;
+        width: 100px;
+        padding: 20px;
+    }
+
+    .conte4{
+        margin: 20px;
+        display:block;
+    }
+
+    .conte4 a{
+        text-decoration: none;
+        color: #000;
+    }
+
+    .botonform{
+        background: var(--negro2);
+        color: var(--blanco);
+        font-size: 18px;
+        padding: 2px 10px;
+        display: block;
+        width: 200px;
+        height: 30px;
+        margin: 0px auto;
+        border: none;
+    }
 }
 
 /*Resolución tablet*/
@@ -711,6 +820,115 @@ h1,h2,h3,h4,h5{
         text-decoration: none;
         color: #000;
     }
+
+    /*ESTILOS FORMULARIO REGISTRO USUARIOS*/
+
+    .bodyformreu{
+        background-image: url(../imagenes/formregusu/fondo.jpg);
+        /*background-repeat: no-repeat;*/
+        width: 100%;
+    }
+
+    .contepadre{ 
+        margin: auto;
+        display: flex;
+    }
+
+    .conte1{
+        margin-top: 20px;
+        height: 100px;
+        width: 768px;
+        background-color: #00325eae;
+        justify-content: center;
+        text-align: center;
+        color: var(--blanco);
+    }
+
+    .conte1 img{
+        justify-content: center;
+        width: 150px;
+        margin-top: 8px;
+    }
+
+    .conte1 h3{
+        font-size: 30px;
+    }
+    
+    .conte1 h2{
+        /*justify-content: center;
+        text-align: center;
+        font-size: 20px;*/
+        display: none;
+    }
+
+    .conte2{
+        justify-content: center;
+        margin: 20px 240px;
+        border-radius: 4px;
+        padding: 10px;
+        height: 1000px;
+        width: 300px;
+        background-color: rgba(231, 229, 229, 0.877);
+    }
+
+    .conte2 h1{
+        text-align: center;
+    }
+
+    .conte3{
+        margin: auto;
+        width: 300px;
+    }
+
+    .conte3 input {
+        font-size: 15px;
+        width: 280px;
+        outline: none;
+        border:none;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .conte3 select{
+        width: 290px;
+        outline: none;
+        border:none;
+        padding: 4px;
+        border-radius: 5px;
+    }
+
+    .camposform{
+        padding: 10px;
+    }
+
+    .camposformg{
+        display: flex;
+        justify-content: flex-start;
+        width: 100px;
+        padding: 20px;
+    }
+
+    .conte4{
+        margin: 20px;
+        display:block;
+    }
+
+    .conte4 a{
+        text-decoration: none;
+        color: #000;
+    }
+
+.botonform{
+    background: var(--negro2);
+    color: var(--blanco);
+    font-size: 18px;
+    padding: 2px 10px;
+    display: block;
+    width: 200px;
+    height: 30px;
+    margin: 0px auto;
+    border: none;
+}
 }
 
 /*Resolución notebooks*/
@@ -1034,6 +1252,111 @@ h1,h2,h3,h4,h5{
         text-decoration: none;
         color: #000;
     }
+
+    /*ESTILOS FORMULARIO REGISTRO USUARIOS*/
+
+.bodyformreu{
+    background-image: url(../imagenes/formregusu/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.contepadre{ 
+    margin: auto;
+    display: flex;
+    float: right;
+}
+
+.conte1{
+    height: 625px;
+    width: 320px;
+    background-color: #00325eae;
+    justify-content: center;
+    text-align: center;
+    color: var(--blanco);
+    justify-content: left;
+}
+
+.conte1 img{
+    margin-top: 200px;
+    width: 250px;
+}
+
+.conte1 h3{
+    display: none;
+}
+
+.conte1 h2{
+    padding: 20px;
+}
+
+.conte2{
+    border-radius: 4px;
+    padding: 30px;
+    height: 510px;
+    width: 750px;
+    background-color: rgba(231, 229, 229, 0.877);
+}
+
+.conte2 h1{
+    text-align: center;
+}
+
+.conte3{
+    display: grid;
+    width: 780px;
+    grid-template-columns: 50% 50%;
+}
+
+.conte3 input {
+    font-size: 10px;
+    width: 230px;
+    outline: none;
+    border:none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.conte3 select{
+    width: 230px;
+    outline: none;
+    border:none;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.camposform{
+    padding: 9px;
+}
+
+.camposformg{
+    display: flex;
+    justify-content: flex-start;
+    width: 100px;
+    padding: 20px;
+}
+
+.conte4{
+    margin: 20px;
+    margin-left: 250px;
+    display:block;
+}
+
+.conte4 a{
+    text-decoration: none;
+    color: #000;
+}
+
+.botonform{
+    background: var(--negro2);
+    color: var(--blanco);
+    font-size: 18px;
+    padding: 2px 10px;
+    display: block;
+    width: 200px;
+    height: 30px;
+    margin: 0px auto;
+}
 }
 
 /*Resolución Desktop*/
@@ -1357,4 +1680,106 @@ h1,h2,h3,h4,h5{
         text-decoration: none;
         color: #000;
     }
+
+    /*ESTILOS FORMULARIO REGISTRO USUARIOS*/
+
+.bodyformreu{
+    background-image: url(../imagenes/formregusu/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.contepadre{ 
+    margin: auto;
+    display: flex;
+}
+
+.conte1{
+    height: 625px;
+    width: 320px;
+    background-color: #00325eae;
+    justify-content: center;
+    text-align: center;
+    color: var(--blanco);
+    justify-content: left;
+}
+
+.conte1 img{
+    margin-top: 200px;
+    width: 250px;
+}
+
+.conte1 h2{
+    padding: 20px;
+}
+
+.conte2{
+    margin: 20px 35px;
+    border-radius: 4px;
+    padding: 30px;
+    height: 510px;
+    width: 750px;
+    background-color: rgba(231, 229, 229, 0.877);
+}
+
+.conte2 h1{
+    text-align: center;
+}
+
+.conte3{
+    display: grid;
+    margin: auto;
+    width: 900px;
+    grid-template-columns: 50% 50%;
+}
+
+.conte3 input {
+    font-size: 10px;
+    width: 230px;
+    outline: none;
+    border:none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.conte3 select{
+    width: 230px;
+    outline: none;
+    border:none;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.camposform{
+    padding: 9px;
+}
+
+.camposformg{
+    display: flex;
+    justify-content: flex-start;
+    width: 100px;
+    padding: 20px;
+}
+
+.conte4{
+    margin: 20px;
+    margin-left: 250px;
+    display:block;
+}
+
+.conte4 a{
+    text-decoration: none;
+    color: #000;
+}
+
+.botonform{
+    background: var(--negro2);
+    color: var(--blanco);
+    font-size: 18px;
+    padding: 2px 10px;
+    display: block;
+    width: 200px;
+    height: 30px;
+    margin: 0px auto;
+}
 }
