@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/b72f550c62.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="js/modal.js">
     <title>Taller 0 Maquetacion Responsive</title>
 </head>
 <body class="bodyformreu">
@@ -103,8 +104,39 @@
             </div>
             
             <div class="conte4">
-                <input type="checkbox"><a href="terminos.html">Acepto Terminos y condiciones</a>
+                <input type="checkbox" id="abrir"><a>Acepto Terminos y condiciones</a>
             </div>
+
+            <div class="modal-container" id="modal_container">
+                <div class="modal">
+                    <div class="modaltitulo">
+                        <h2>Términos y Condiciones</h2>
+                    </div>
+
+                    <p>Estos Términos del Servicio reflejan la forma 
+                        de trabajar de Google como empresa, las 
+                        leyes por las que nos regimos y determinados 
+                        aspectos que siempre hemos creído que son 
+                        ciertos. Por ello, estos Términos del Servicio 
+                        ayudan a definir la relación que tiene Google
+                        contigo cuando interactúas con nuestros
+                        servicios. Por ejemplo, estos términos 
+                        incluyen las seguientes secciones:
+
+                        <br>
+
+                        Qué puedes esperar de nosotros, donde se
+                        describe cómo proporcionamos y 
+                        desarrollamos nuestros servicios.
+                        Lo que esperamos de ti, donde se establecen 
+                        ciertas reglas para utilizar nuestros servicios.
+                    </p>
+
+                    <button id="cerrar">Aceptar</button>
+                </div>
+            </div>
+
+            <script src="js/modal.js"></script>
 
             <button class="botonform">Ingresar</button>
         </form>
