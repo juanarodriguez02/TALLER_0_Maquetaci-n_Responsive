@@ -2449,3 +2449,173 @@ h1,h2,h3,h4,h5{
     width: 220px;
     padding: 10px 15px;
 }
+
+/*ESTILOS FORM BUSQUEDA HABITACIONES*/
+
+.contepadrebusqueda{
+    position: absolute;
+}
+
+.conteunobusqueda{
+    position: absolute;
+    width: 300px;
+    height: 270px;
+    margin: 10px 300px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px #3379b7bb;
+}
+
+.contebusquedatitulo{
+    background-color: var(--azuloscuro);
+    color: var(--blanco);
+    width: 270px;
+    height: 30px;
+    margin-top: 100px;
+    margin-left: 310px;
+    border-radius: 3px;
+    text-align: center;
+    padding: 5px;
+}
+
+.formbusqueda{
+    padding: 20px;
+    position: absolute;
+}
+
+.formbusqueda input{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 180px;
+    height: 25px;
+    border: 1px 1px 1px 1px #000;
+    outline: none;
+}
+
+.forminputuno{
+    padding-left: 10px;
+}
+
+.forminputdos{
+    padding-left: 15px;
+}
+
+.botonformbusqueda{
+    background: var(--negro2);
+    color: var(--blanco);
+    font-size: 15px;
+    padding: 2px 10px;
+    display: block;
+    width: 220px;
+    height: 30px;
+    margin: 5px auto;
+    border: none;
+}
+
+.contedosbusqueda{    
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+    
+    .card1{
+        background-color: var(--blanco);
+        width: 250px;
+        height: 280px;
+        margin-left: 350px;
+        position: relative;
+        margin-top: 2%;
+        box-shadow: 0px 0px 0px 1px #000;
+    }
+    
+    .card1 img{
+        width: 220px;
+        padding: 10px 15px;
+    }
+    
+    .card1titulo{
+        margin-left: 15px;
+        width: 190px;
+        height: 30px;
+        padding: 0px 15px;
+        position: relative;
+        background-color: #48d7eda2;
+        color: var(--blanco);
+        text-align: center;
+    }
+    
+    .card1texto h2{
+        text-align: center;
+    }
+    
+    .card1texto p{
+        text-align: justify;
+        font-size: 15px;
+        padding: 0px 10px;
+    }
+    
+    .card1botones{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .botoncard{
+        background: var(--negro);
+        color: var(--blanco);
+        font-size: 17px;
+        padding: 2px 10px;
+        width: 223px;
+        height: 30px;
+        margin: 10px 13px;
+        border: none;
+        border-radius: 3px;
+    }
+    
+    .card2{
+        background-color: var(--blanco);
+        width: 250px;
+        margin-left: 130px;
+        margin-top: 120px;
+        box-shadow: 0px 0px 0px 1px #000;
+        height: 280px;
+        position: relative;
+        margin-top: 2%;
+    }
+    
+    .card2 img{
+        width: 220px;
+        padding: 10px 15px;
+    }
+
+    .contetresbusqueda{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card3{
+        background-color: var(--blanco);
+        width: 250px;
+        height: 300px;
+        margin-left: 350px;
+        margin-top: 320px;
+        box-shadow: 0px 0px 0px 1px #000;
+    }
+    
+    .card3 img{
+        width: 220px;
+        padding: 10px 15px;
+    }
+
+    .card4{
+        background-color: var(--blanco);
+        width: 250px;
+        height: 300px;
+        margin-left: 130px;
+        margin-top: 320px;
+        box-shadow: 0px 0px 0px 1px #000;
+    }
+    
+    .card img{
+        width: 220px;
+        padding: 10px 15px;
+    }
