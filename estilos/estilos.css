@@ -2282,7 +2282,6 @@ h1,h2,h3,h4,h5{
     float: right;
     width: 84%;
     height: 625px;
-    background-color: #9C2759;
 }
 
 .contelistdos h1{
@@ -2297,7 +2296,7 @@ h1,h2,h3,h4,h5{
     height: 40px;
     justify-content: center;
     text-align: center;
-    background-color: #B2B3B3;
+    background-color: rgba(178, 179, 179, 0.74);
 }
 
 .conteselect select{
@@ -2307,4 +2306,146 @@ h1,h2,h3,h4,h5{
     outline: none;
     padding: 4px;
     border-radius: 2px;
+}
+
+.contelisttres{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+.card1{
+    background-color: var(--blanco);
+    width: 250px;
+    margin-left: 270px;
+    margin-top: 120px;
+    position: relative;
+    box-shadow: 0px 0px 0px 1px #000;
+}
+
+.card1 img{
+    width: 220px;
+    padding: 10px 15px;
+}
+
+.card1titulo{
+    margin-left: 15px;
+    width: 190px;
+    height: 30px;
+    padding: 0px 15px;
+    position: relative;
+    background-color: #48d7eda2;
+    color: var(--blanco);
+    text-align: center;
+}
+
+.card1texto h2{
+    text-align: center;
+}
+
+.card1texto p{
+    text-align: justify;
+    font-size: 15px;
+    padding: 0px 10px;
+}
+
+.card1botones{
+    display: flex;
+    flex-direction: row;
+}
+
+.botoncard1{
+    background: var(--negro);
+    color: var(--blanco);
+    font-size: 17px;
+    padding: 2px 10px;
+    width: 150px;
+    height: 30px;
+    margin: 10px 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+.botoncard2{
+    background: var(--Magenta);
+    color: var(--blanco);
+    font-size: 17px;
+    padding: 2px 10px;
+    width: 150px;
+    height: 30px;
+    margin: 10px 20px;
+    border: none;
+    border-radius: 3px;
+}
+
+.card2{
+    background-color: var(--blanco);
+    width: 250px;
+    margin-left: 130px;
+    margin-top: 120px;
+    box-shadow: 0px 0px 0px 1px #000;
+}
+
+.card2 img{
+    width: 220px;
+    padding: 10px 15px;
+}
+
+.card3{
+    background-color: var(--blanco);
+    width: 250px;
+    margin-left: 120px;
+    margin-top: 120px;
+    box-shadow: 0px 0px 0px 1px #000;
+}
+
+.card3 img{
+    width: 220px;
+    padding: 10px 15px;
+}
+
+.contelistcuatro{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+.card4{
+    background-color: var(--blanco);
+    width: 250px;
+    margin-left: 270px;
+    margin-top: 500px;
+    position: relative;
+    box-shadow: 0px 0px 0px 1px #000;
+}
+
+.card4 img{
+    width: 220px;
+    padding: 10px 15px;
+}
+
+.card5{
+    background-color: var(--blanco);
+    width: 250px;
+    margin-left: 130px;
+    margin-top: 500px;
+    box-shadow: 0px 0px 0px 1px #000;
+}
+
+.card5 img{
+    width: 220px;
+    padding: 10px 15px;
+}
+
+.card6{
+    background-color: var(--blanco);
+    width: 250px;
+    margin-left: 120px;
+    margin-top: 500px;
+    box-shadow: 0px 0px 0px 1px #000;
+}
+
+.card6 img{
+    width: 220px;
+    padding: 10px 15px;
 }
