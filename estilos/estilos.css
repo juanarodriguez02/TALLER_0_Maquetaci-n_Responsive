@@ -2066,3 +2066,245 @@ h1,h2,h3,h4,h5{
         padding: 30px;
     }
 }
+
+/*ESTILOS FORM HABITACIÓN*/
+
+.contepadrehabi{
+    display: flex;
+}
+
+.conteizq{
+    float: left;
+    width: 200px;
+    height: 619px;
+}
+
+.contedere{
+    background-image: url(../imagenes/formhabi/fondo.jpg);
+    background-repeat: none;
+    width: 100%;
+}
+
+.contetitulo{
+    background-color: rgba(178, 179, 179, 0.897);
+    margin-top: 25px;
+    margin-left: 50px;
+    height: 560px;
+    width: 1050px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.contetitulo h1{
+    text-align: center;
+    padding: 20px;
+}
+
+.conteform{
+    display: flex;
+}
+
+.conteformuno{
+    display: flex;
+    position: relative;
+    margin-top: 7rem;
+    margin-left: 80px;
+    width: 500px;
+    float: left;
+}
+
+.contedosmenos{
+    float: right;
+}
+
+#menos{
+    background-color: var(--negro2);
+    color: var(--blanco);
+    font-size: 15px;
+}
+
+#mas{
+    background-color: var(--negro2);
+    color: var(--blanco);
+    font-size: 15px;
+}
+
+.conteformuno label{
+    font-size: 1rem;
+}
+
+.conteformuno input{
+    width: 500px;
+    height: 22px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    margin: 5px 0px;
+}
+
+.conteformdos{
+    position: relative;
+    float: right;
+    margin-top: 7rem;
+    margin-right: 200px;
+    width: 320px;
+}
+
+.conteformdos label{
+    font-size: 1rem;
+}
+
+.conteformdos input{
+    width: 420px;
+    height: 22px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    margin: 10px 0px;
+}
+
+.conteformtres{
+    margin-left: 80px;
+    margin-top: 325px;
+    position: relative;
+}
+
+.conteformtres label{
+    font-size: 1rem;
+}
+
+.conteformtres input{
+    width: 970px;
+    height: 70px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    margin: 10px 0px;
+}
+
+.conteformcuatro{
+    margin-top: 20px;
+    margin-left: 80px;
+    flex-direction: row;
+    position: relative;
+}
+
+.conteformcuatro i{
+    margin-left: 5px;
+    font-size: 20px;
+    margin-right: 130px;
+}
+
+.botonformhuesped{
+    position: relative;
+    background: var(--negro);
+    color: var(--blanco);
+    font-size: 18px;
+    padding: 2px 10px;
+    display: block;
+    width: 200px;
+    height: 30px;
+    margin: 50px auto;
+    border: none;
+}
+
+/*LISTADO USUARIOS*/
+
+.contelistuno{
+    width: 208px;
+    height: 625px;
+    background-color: var(--azulnegro);
+    justify-content: center;
+    color: var(--blanco);
+    position: absolute;
+
+}
+
+.contelistuno img{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 150px;
+}
+
+.conteencabe{
+    background-color: var(--azuloscuro);
+    height: 190px;
+}
+
+.conteusulist{
+    display: flex;
+    flex-direction: row;
+}
+
+.conteusulist img{
+    width: 40px;
+    margin: 50px 10px;
+}
+
+.conteusulist h5{
+    margin: 50px 0px;
+}
+
+.icono1{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.icono1 h4{
+    margin-left: 23px;
+}
+
+.icono1 i{
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.icono2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 190px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.icono2 h4{
+    margin-left: 23px;
+}
+
+.icono2 i{
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.contelistdos{
+    float: right;
+    width: 84%;
+    height: 625px;
+    background-color: #9C2759;
+}
+
+.contelistdos h1{
+    text-align: center;
+    margin: 0%;
+}
+
+.conteselect{
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-left: 100px;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    background-color: #B2B3B3;
+}
+
+.conteselect select{
+    margin-right: 100px;
+    width: 160px;
+    border: none;
+    outline: none;
+    padding: 4px;
+    border-radius: 2px;
+}
