@@ -377,17 +377,17 @@ h1,h2,h3,h4,h5{
         width: 100%;
     }
 
-    .contepadre{
+    .contepadre{ 
         display: flex;
         flex-direction: column;
+        position: absolute;
     }
 
     .conte1{
         margin-top: 20px;
         height: 100px;
-        width: 620px;
+        width: 718px;
         background-color: #00325eae;
-        justify-content: center;
         text-align: center;
         color: var(--blanco);
     }
@@ -410,8 +410,9 @@ h1,h2,h3,h4,h5{
     }
 
     .conte2{
+        position: absolute;
         justify-content: center;
-        margin: 20px 150px;
+        margin: 150px 150px;
         border-radius: 4px;
         padding: 10px;
         height: 1000px;
@@ -484,7 +485,7 @@ h1,h2,h3,h4,h5{
         background-image: url(../imagenes/formusu/fondo.jpg);
         background-size: 100%;
     }
-
+    
     .contenedor1{
         height: 625px;
         width: 50px;
@@ -1527,7 +1528,7 @@ h1,h2,h3,h4,h5{
 
     .conte2{
         float: right;
-        margin-left: 60px;
+        margin-left: 00px;
         border-radius: 4px;
         padding: 30px;
         height: 510px;
@@ -2100,10 +2101,6 @@ h1,h2,h3,h4,h5{
     padding: 20px;
 }
 
-.conteform{
-    display: flex;
-}
-
 .conteformuno{
     display: flex;
     position: relative;
@@ -2517,7 +2514,7 @@ h1,h2,h3,h4,h5{
     flex-direction: row;
 }
     
-    .card1{
+    .carduno{
         background-color: var(--blanco);
         width: 250px;
         height: 280px;
@@ -2527,12 +2524,12 @@ h1,h2,h3,h4,h5{
         box-shadow: 0px 0px 0px 1px #000;
     }
     
-    .card1 img{
+    .carduno img{
         width: 220px;
         padding: 10px 15px;
     }
     
-    .card1titulo{
+    .cardunotitulo{
         margin-left: 15px;
         width: 190px;
         height: 30px;
@@ -2543,17 +2540,17 @@ h1,h2,h3,h4,h5{
         text-align: center;
     }
     
-    .card1texto h2{
+    .cardunotexto h2{
         text-align: center;
     }
     
-    .card1texto p{
+    .cardunotexto p{
         text-align: justify;
         font-size: 15px;
         padding: 0px 10px;
     }
     
-    .card1botones{
+    .cardunobotones{
         display: flex;
         flex-direction: row;
     }
@@ -2570,7 +2567,7 @@ h1,h2,h3,h4,h5{
         border-radius: 3px;
     }
     
-    .card2{
+    .carddos{
         background-color: var(--blanco);
         width: 250px;
         margin-left: 130px;
@@ -2581,7 +2578,7 @@ h1,h2,h3,h4,h5{
         margin-top: 2%;
     }
     
-    .card2 img{
+    .carddos img{
         width: 220px;
         padding: 10px 15px;
     }
@@ -2592,7 +2589,7 @@ h1,h2,h3,h4,h5{
         flex-direction: row;
     }
 
-    .card3{
+    .cardtres{
         background-color: var(--blanco);
         width: 250px;
         height: 300px;
@@ -2601,12 +2598,12 @@ h1,h2,h3,h4,h5{
         box-shadow: 0px 0px 0px 1px #000;
     }
     
-    .card3 img{
+    .cardtres img{
         width: 220px;
         padding: 10px 15px;
     }
 
-    .card4{
+    .cardcuatro{
         background-color: var(--blanco);
         width: 250px;
         height: 300px;
@@ -2615,7 +2612,7 @@ h1,h2,h3,h4,h5{
         box-shadow: 0px 0px 0px 1px #000;
     }
     
-    .card img{
+    .cardcuatro img{
         width: 220px;
         padding: 10px 15px;
     }

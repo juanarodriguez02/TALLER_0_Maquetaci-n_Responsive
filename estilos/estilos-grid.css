@@ -51,7 +51,7 @@ nav {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
-    grid-template-areas:
+    grid-template-areas: 
         "logo-img menu-bars";
     background-color: var(--negro2);
     padding: 1rem;
@@ -113,6 +113,23 @@ nav a:hover {
     background-position: 50% 50%;
     min-height: 400px;
     margin-top: 60px;
+}
+
+.conteimg{
+    position: relative;
+    display: grid;
+}
+
+.indexi{
+    width: 100%;
+}
+
+.contetexto{
+    position: absolute;
+    top: 27rem;
+    left: 4rem;
+    color: var(--blanco);
+    background-color: rgba(0, 0, 0, 0.26);
 }
 
 /*Resolución notebooks*/

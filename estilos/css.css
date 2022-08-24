@@ -1,12 +1,12 @@
 /*ESTILOS BODY*/
 
-.indexi{
-    width: 118.9rem;
-}
-
 .conteimg{
     position: relative;
     display: inline-block;
+}
+
+.indexi{
+    width: 118.9rem;
 }
 
 .contetexto{
@@ -15,10 +15,6 @@
     left: 4rem;
     color: var(--blanco);
     background-color: rgba(0, 0, 0, 0.26);
-}
-
-.imgdesc{
-    float: right;
 }
 
 .contedesc{
