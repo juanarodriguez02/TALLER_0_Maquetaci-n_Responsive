@@ -190,8 +190,8 @@ h1,h2,h3,h4,h5{
 
     .hr{
         background-color: var(--azuloscuro);
-        width: 300px;
-        margin: 5px;
+        width: 360px;
+        margin: 2rem;
     }
 
     .conteusuarios{
@@ -223,17 +223,32 @@ h1,h2,h3,h4,h5{
         justify-content: center;
         background-color: #0B3860;
         color: #fff;
-        /*background-color: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%); */
     }
 
-    .cajascomen h5{
-        text-align: center;
+    .cajascomen p{
+        margin-bottom: 20px;
     }
 
     .cajascomen img{
         width: 50px;
         border-radius: 100px;
-        float: left;
+    }
+
+    .cardarriba{
+        background-image: url(/imagenes/Group\ 200.svg);
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+
+    .nombrecard{
+        float: right;
+        margin-right: 80px;
+        margin-top: 10px;
+    }
+
+    .nombrecard i{
+        padding-top: 7px;
+        padding-right: 8px;
     }
 
     footer{
@@ -548,15 +563,15 @@ h1,h2,h3,h4,h5{
 
     .contenedor2 img{
         width: 100px;
-        margin-left: 20px;
+        margin-left: 70px;
     }
 
     .contenedor2{
         margin: 20px 35px;
         border-radius: 4px;
         padding: 30px;
-        height: 510px;
-        width: 960px;
+        height: 1000px;
+        width: 250px;
         background-color: rgba(231, 229, 229, 0.877);
     }
 
@@ -567,8 +582,8 @@ h1,h2,h3,h4,h5{
     .iconosform{
         color: var(--blanco);
         background-color: var(--azuloscuro);
-        margin-left: 20px;
-        width: 150px;
+        margin-left: 60px;
+        width: 120px;
         height: 35px;
         text-align: center;
         font-size: 30px;
@@ -578,6 +593,10 @@ h1,h2,h3,h4,h5{
     .iconosform i{
         padding-right: 17px;
         padding-left: 10px;
+    }
+
+    #icono1{
+        display: none;
     }
 
     .botoncambiar{
@@ -590,15 +609,16 @@ h1,h2,h3,h4,h5{
         font-size: 18px;
         width: 150px;
         height: 58px;
+        display: none;
     }   
 
     .contenedordos{
         float: left;
+        
     }
 
     .contenedor3{
         background-color: rgba(231, 229, 229, 0.062);
-        float: right;
         margin-right: 100px;
         width: 550px;
     }
@@ -645,6 +665,11 @@ h1,h2,h3,h4,h5{
 
     .camposform1{
         padding: 10px;
+    }
+
+    .cambioorden{
+        display: flex;
+        flex-direction: row-reverse;
     }
 
     /*ESTILOS MODAL*/
@@ -868,8 +893,8 @@ h1,h2,h3,h4,h5{
 
     .hr{
         background-color: var(--azuloscuro);
-        width: 747px;
-        margin: 5px;
+        width: 655px;
+        margin-left: 3rem;
     }
 
     .conteusuarios{
@@ -901,17 +926,31 @@ h1,h2,h3,h4,h5{
         justify-content: center;
         background-color: #0B3860;
         color: #fff;
-        /*background-color: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%); */
     }
 
-    .cajascomen h5{
-        text-align: center;
+    .cajascomen p{
+        margin-bottom: 20px;
     }
 
     .cajascomen img{
         width: 50px;
         border-radius: 100px;
-        float: left;
+    }
+
+    .cardarriba{
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+
+    .nombrecard{
+        float: right;
+        margin-right: 80px;
+        margin-top: 10px;
+    }
+
+    .nombrecard i{
+        padding-top: 7px;
+        padding-right: 8px;
     }
 
     footer{
@@ -1087,7 +1126,6 @@ h1,h2,h3,h4,h5{
 
     .conte2{
         justify-content: center;
-        margin-top: 50px;
         margin-left: 250px;
         border-radius: 4px;
         padding: 10px;
@@ -1153,6 +1191,182 @@ h1,h2,h3,h4,h5{
         height: 30px;
         margin: 0px auto;
         border: none;
+    }
+
+    .fondousu{
+        background-image: url(../imagenes/formusu/fondo.jpg);
+        background-size: 100%;
+    }
+    
+    .contenedor1{
+        height: 625px;
+        width: 50px;
+        background-color: var(--azulnegro);
+        justify-content: center;
+        color: var(--blanco);
+    }
+
+    .contenedor1 img{
+        margin-top: 20px;
+        width: 50px;
+    }
+
+    .conteencabezado{
+        background-color: var(--azuloscuro);
+        height: 190px;
+    }
+
+    .contenedor1 h5{
+        display: none;
+    }   
+
+    .opcion1 i{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .opcion1{
+        display: flex;
+        flex-direction: row;
+        padding-top: 40px;
+    }
+
+    .opcion1 h4{
+        margin-left: 23px;
+        display: none;
+    }
+
+    .opcion2{
+        display: flex;
+        flex-direction: row;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    .opcion2 h4{
+        margin-left: 23px;
+        display: none;
+    }
+
+    .opcion2 i{
+        margin-left: -8px;
+        font-size: 25px;
+    }
+
+    .contepadre{ 
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contenedor2 img{
+        width: 100px;
+        margin-left: 70px;
+    }
+
+    .contenedor2{
+        margin: 20px 35px;
+        border-radius: 4px;
+        padding: 30px;
+        height: 1000px;
+        width: 250px;
+        background-color: rgba(231, 229, 229, 0.877);
+    }
+
+    .contenedor2 h1{
+        text-align: center;
+    }
+
+    .iconosform{
+        color: var(--blanco);
+        background-color: var(--azuloscuro);
+        margin-left: 60px;
+        width: 120px;
+        height: 35px;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 5px;
+    }
+
+    .iconosform i{
+        padding-right: 17px;
+        padding-left: 10px;
+    }
+
+    #icono1{
+        display: none;
+    }
+
+    .botoncambiar{
+        margin-top: 30px;
+        margin-left: 20px;
+        border-radius: 4px;
+        border: none;
+        background: var(--negro);
+        color: var(--blanco);
+        font-size: 18px;
+        width: 150px;
+        height: 58px;
+        display: none;
+    }   
+
+    .contenedordos{
+        float: left;
+        
+    }
+
+    .contenedor3{
+        background-color: rgba(231, 229, 229, 0.062);
+        margin-right: 100px;
+        width: 550px;
+    }
+
+    .contenedor3 input {
+        font-size: 10px;
+        width: 230px;
+        outline: none;
+        border:none;
+        padding: 5px;
+        border-radius: 2px;
+    }
+
+    .contenedor3 select{
+        width: 230px;
+        outline: none;
+        border:none;
+        padding: 4px;
+        border-radius: 2px;
+    }   
+
+    .botonactualizar{
+        margin-left: 9px;
+        border-radius: 2px;
+        border: none;
+        background: var(--negro);
+        color: var(--blanco);
+        font-size: 18px;
+        width: 190px;
+        height: 40px;
+    }
+
+    .botoncambiar2{
+        margin-left: 10px;
+        margin-top: 5px;
+        border-radius: 2px;
+        border: none;
+        background: var(--negro);
+        color: var(--blanco);
+        font-size: 18px;
+        width: 190px;
+        height: 40px;
+    }
+
+    .camposform1{
+        padding: 10px;
+    }
+
+    .cambioorden{
+        display: flex;
+        flex-direction: row-reverse;
     }
 }
 
@@ -1304,7 +1518,7 @@ h1,h2,h3,h4,h5{
 
     .hr{
         width: 650px;
-        margin-left: 11.5rem;
+        margin-left: 14.5rem;
     }
     
     .conteusuarios{
@@ -1337,31 +1551,30 @@ h1,h2,h3,h4,h5{
         justify-content: center;
         background-color: #0B3860;
         color: #fff;
-        /*background-color: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%); */
-    }
-
-    .titulocomen{
-        padding-top: 30px;
-        margin-left: 70px;
-        width: 200px;
-        height: 100px;
-        text-align: center;
-        float: left;
-        background-color: #000;
-    }
-
-    .estrellascomen{
-        padding-bottom: 30px;
-        margin-left: 100px;
-        font-size: 20px;
-
     }
 
     .cajascomen img{
-        width: 40px;
+        width: 50px;
         border-radius: 100px;
-        float: left;
-        margin-bottom: 20px;
+    }
+
+    .cardarriba{
+        display: flex;
+        flex-direction: row;
+        height: 80px;
+    }
+
+    .nombrecard{
+        margin-left: 20px;
+    }
+
+    .nombrecard i{
+        padding-top: 7px;
+    }
+
+    .estrellas{
+        display: flex;
+        flex-direction: row;
     }
     
     footer{
@@ -1528,11 +1741,12 @@ h1,h2,h3,h4,h5{
 
     .conte2{
         float: right;
-        margin-left: 00px;
+        margin: 30px 300px;
+        /*margin-left: 300px;*/
         border-radius: 4px;
         padding: 30px;
         height: 510px;
-        width: 600px;
+        width: 640px;
         background-color: rgba(231, 229, 229, 0.877);
     }
 
@@ -1596,6 +1810,166 @@ h1,h2,h3,h4,h5{
         height: 30px;
         margin: 0px auto;
     }
+
+    /*======ESTILOS DASHBOARD=======*/
+
+    .contenedor1{
+        height: 625px;
+        width: 208px;
+        background-color: var(--azulnegro);
+        justify-content: center;
+        color: var(--blanco);
+    }
+    
+    .contenedor1 img{
+        margin-top: 20px;
+        margin-left: 30px;
+        width: 150px;
+    }
+    
+    .conteencabezado{
+        background-color: var(--azuloscuro);
+        height: 190px;
+    }
+    
+    .contenedor1 h5{
+        padding: 60px;
+        text-align: end;
+        color: #FFF;
+    }
+    
+    .opcion1 i{
+        padding-left: 10px;
+        font-size: 20px;
+    }
+    
+    .opcion1{
+        display: flex;
+        flex-direction: row;
+        padding-top: 40px;
+    }
+    
+    .opcion1 h4{
+        margin-left: 23px;
+    }
+    
+    .opcion2{
+        display: flex;
+        flex-direction: row;
+        padding-top: 20px;
+    }
+    
+    .opcion2 h4{
+        margin-left: 23px;
+    }
+    
+    .opcion2 i{
+        padding-left: 10px;
+        font-size: 25px;
+    }
+
+    .contenedor2 img{
+        width: 150px;
+        margin-left: 20px;
+    }
+    
+    .contenedor2{
+        margin: 20px 35px;
+        border-radius: 4px;
+        padding: 30px;
+        height: 510px;
+        width: 960px;
+        background-color: rgba(231, 229, 229, 0.877);
+    }
+    
+    .contenedor2 h1{
+        text-align: center;
+    }
+    
+    .iconosform{
+        color: var(--blanco);
+        background-color: var(--azuloscuro);
+        margin-left: 20px;
+        width: 150px;
+        height: 35px;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 5px;
+    }
+    
+    .iconosform i{
+        padding-right: 17px;
+        padding-left: 10px;
+    }
+    
+    .botoncambiar{
+        margin-top: 30px;
+        margin-left: 20px;
+        border-radius: 4px;
+        border: none;
+        background: var(--negro);
+        color: var(--blanco);
+        font-size: 18px;
+        width: 150px;
+        height: 58px;
+    }
+    
+    .contenedordos{
+        float: left;
+    }
+    
+    .contenedor3{
+        background-color: rgba(231, 229, 229, 0.062);
+        display: grid;
+        margin-left: 20px;
+        width: 550px;
+        grid-template-columns:60% 50%;
+    }
+    
+    .contenedor3 input {
+        font-size: 10px;
+        width: 230px;
+        outline: none;
+        border:none;
+        padding: 5px;
+        border-radius: 2px;
+    }
+    
+    .contenedor3 select{
+        width: 230px;
+        outline: none;
+        border:none;
+        padding: 4px;
+        border-radius: 2px;
+    }
+    
+    .botonactualizar{
+        margin-left: 9px;
+        border-radius: 2px;
+        border: none;
+        background: var(--negro);
+        color: var(--blanco);
+        font-size: 18px;
+        width: 190px;
+        height: 40px;
+    }
+    
+    .botoncambiar2{
+        margin-left: 10px;
+        margin-top: 5px;
+        border-radius: 2px;
+        border: none;
+        background: var(--negro);
+        color: var(--blanco);
+        font-size: 18px;
+        width: 190px;
+        height: 40px;
+    }
+    
+    .camposform1{
+        padding: 10px;
+    }
+    
 }
 
 /*Resolución Desktop*/
@@ -1746,14 +2120,13 @@ h1,h2,h3,h4,h5{
 
     .hr{
         width: 650px;
-        margin-left: 21rem;
+        margin-left: 22.5rem;
     }
     
     .conteusuarios{
         background-color: var(--negro);
         height: 200px;
         margin-top: 100px;
-        
     }
     
     .titulousu{
@@ -1770,9 +2143,9 @@ h1,h2,h3,h4,h5{
     }
     
     .cajascomen{
-        width: 300px;
+        width: 270px;
         height: 180px;
-        margin: 0.8rem;
+        margin: 0.5rem;
         padding: 1rem;
         display: flex;
         flex-direction: column;
@@ -1780,12 +2153,29 @@ h1,h2,h3,h4,h5{
         background-color: #0B3860;
         color: #fff;
     }
-    
+
     .cajascomen img{
         width: 50px;
         border-radius: 100px;
-        float: left;
-        margin-bottom: 2rem;
+    }
+
+    .cardarriba{
+        display: flex;
+        flex-direction: row;
+        height: 80px;
+    }
+
+    .nombrecard{
+        margin-left: 20px;
+    }
+
+    .nombrecard i{
+        padding-top: 7px;
+    }
+
+    .estrellas{
+        display: flex;
+        flex-direction: row;
     }
     
     footer{
