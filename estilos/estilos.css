@@ -494,6 +494,11 @@ h1,h2,h3,h4,h5{
         border: none;
     }
 
+    .botonform a{
+        color: #fff;
+        text-decoration: none;
+    }
+
     /*FORMULARIO USUARIO*/
 
     .fondousu{
@@ -1193,6 +1198,11 @@ h1,h2,h3,h4,h5{
         border: none;
     }
 
+    .botonform a{
+        color: #fff;
+        text-decoration: none;
+    }
+
     .fondousu{
         background-image: url(../imagenes/formusu/fondo.jpg);
         background-size: 100%;
@@ -1811,6 +1821,11 @@ h1,h2,h3,h4,h5{
         margin: 0px auto;
     }
 
+    .botonform a{
+        color: #fff;
+        text-decoration: none;
+    }
+
     /*======ESTILOS DASHBOARD=======*/
 
     .contenedor1{
@@ -1836,6 +1851,7 @@ h1,h2,h3,h4,h5{
         padding: 60px;
         text-align: end;
         color: #FFF;
+        display: block;
     }
     
     .opcion1 i{
@@ -1851,6 +1867,7 @@ h1,h2,h3,h4,h5{
     
     .opcion1 h4{
         margin-left: 23px;
+        display: block;
     }
     
     .opcion2{
@@ -1861,6 +1878,7 @@ h1,h2,h3,h4,h5{
     
     .opcion2 h4{
         margin-left: 23px;
+        display: block;
     }
     
     .opcion2 i{
@@ -1877,7 +1895,7 @@ h1,h2,h3,h4,h5{
         margin: 20px 35px;
         border-radius: 4px;
         padding: 30px;
-        height: 510px;
+        height: 550px;
         width: 960px;
         background-color: rgba(231, 229, 229, 0.877);
     }
@@ -1901,6 +1919,10 @@ h1,h2,h3,h4,h5{
         padding-right: 17px;
         padding-left: 10px;
     }
+
+    #icono1{
+        display:inline;
+    }
     
     .botoncambiar{
         margin-top: 30px;
@@ -1912,6 +1934,7 @@ h1,h2,h3,h4,h5{
         font-size: 18px;
         width: 150px;
         height: 58px;
+        display: block;
     }
     
     .contenedordos{
@@ -1921,9 +1944,11 @@ h1,h2,h3,h4,h5{
     .contenedor3{
         background-color: rgba(231, 229, 229, 0.062);
         display: grid;
-        margin-left: 20px;
+        margin-left: 50px;
+        margin-top: -160px;
         width: 550px;
-        grid-template-columns:60% 50%;
+        grid-template-columns: 60% 50%;
+        float: left;
     }
     
     .contenedor3 input {
@@ -2342,7 +2367,7 @@ h1,h2,h3,h4,h5{
 
     .conte2{
         float: right;
-        margin-left: 230px;
+        margin-left: 400px;
         border-radius: 4px;
         padding: 30px;
         height: 510px;
@@ -2400,6 +2425,11 @@ h1,h2,h3,h4,h5{
         margin: 0px auto;
     }
 
+    .botonform a{
+        color: #fff;
+        text-decoration: none;
+    }
+
 
     /*ESTILOS MODAL*/
 
@@ -2455,6 +2485,10 @@ h1,h2,h3,h4,h5{
 
     .modal p{
         padding: 30px;
+    }
+
+    #icono1{
+        display:inline;
     }
 }
 
